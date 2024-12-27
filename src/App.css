@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,58 @@
   to {
     transform: rotate(360deg);
   }
+} */
+*{
+  background: rgb(8, 8, 8);
+  box-sizing: border-box;
+}
+.pass-con{
+  background: rgb(36, 35, 35);
+  width: 50%;
+  padding: 20px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  
+}
+.container{
+  justify-items: center;
+}
+.pass-con h1{
+  color: white;
+  background: none;
+}
+.input-text{
+  background-color: white;
+  padding: 13px;
+  border: none;
+  border-radius: 18px;
+  width: 100%;
+  outline: none;
+  
+}
+lable{
+  color: white;
+  background: none;
+}
+.flex-contain{
+  display: flex;
+  gap: 20px;
+  margin-top: 6px;
+  background: none;
+}
+.main-text{
+  background: none;
+  display: flex;
+}
+button{
+  margin-left: -50px;
+  width: 100px;
+  border: none;
+  border-top-right-radius: 18px;
+  border-bottom-right-radius: 18px;
+  color: white;
+  background: orange;
+  font-size: 20px;
+  cursor: pointer;
 }
